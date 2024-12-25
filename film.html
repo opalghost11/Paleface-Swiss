@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Любимые фильмы</title>
+</head>
+<body bgcolor="Beige">
+    <button class="upBtn">В начало</button>
+    <div class="dropdown" style="float: left;">
+        <p class="droptrigger_label">Меню</p>
+        <div class="dropdown-content" style="left: 0;">
+            <a href="./index.html" style="font-family: Arial, sans-serif; color:red">Главная</a>
+            <a href="./info.html">Общая информация</a>
+            <a href="./history.html">История</a>
+            <a href="./disc.html">Дискография</a>
+            <a href="#">Любимые фильмы</a>
+            <a href="./links.html">Источники</a>
+        </div>
+    </div>
+    <h1 align="center">Любимые фильмы участников группы</h1>
+    <table border=1 align=center>
+        <tr align=center> 
+            <td>Год
+            <td>Русское название
+            <td>Оригинальное название 
+            <td>Афиша
+            <td>Примечание
+        </tr>
+        <tr align=center> 
+            <td>2022
+            <td>Крик 5
+            <td>Scream V 
+            <td><img src= "C:\Users\Яна\Desktop\site\Крик_(2022).png" width="150">
+            <td>Любимый фильм барабанщика
+        </tr>
+        <tr align=center> 
+            <td>2009
+            <td>Мальчишник в Вегасе
+            <td>The Hangover 
+            <td><img src="C:\Users\Яна\Desktop\site\The_Hangover.jpg" width="150">
+            <td>Любимый фильм вокалиста
+        </tr>
+        <tr align=center> 
+            <td>1999
+            <td>Американский пирог
+            <td>American Pie
+            <td><img src="C:\Users\Яна\Desktop\site\428px-American_pie_poster.jpg" width="150">
+            <td>Любимый фильм гитариста
+        </tr>
+        <tr align=center> 
+            <td>2014
+            <td>Интерстеллар
+            <td>Interstellar 
+            <td><img src="C:\Users\Яна\Desktop\site\323px-Interstellar_2014.jpg" width="150">
+            <td>Любимый фильм бас гитариста
+        </tr>
+    </table>
+    <hr width="50%" size="1" background-color="green">
+    <p align="center">
+        <font face="Arial" size="1">&copy; Все права защищены.</font>
+         Я. А. Осипова, БЭР2202. 2024.</p>  
+</body>
+<script>
+    const upBtn = document.querySelector(".upBtn");
+    upBtn.addEventListener("click", function(){
+        window.scrollTo({ top:0, behavior: "smooth"});         
+    })
+        
+</script>
+</html>
